@@ -20,7 +20,7 @@
     <li> <a href="{{url('salesreport/create')}}">Create Salesreport</a></li>
     <li> <a href="{{url('products/create')}}">Create Products</a></li>
     <li> <a href="{{url('account/create')}}">Create Accounts</a></li>
-    <li> <a href="{{url('blog/create')}}">Create Blogs</a></li>
+    <li> <a href="{{url('blogs/create')}}">Create Blogs</a></li>
 </ul>
 <hr>
 <li>Information Management</li>
@@ -35,7 +35,8 @@
             <li><a href="{{url('expenses')}}">View Expenses</a></li>
             <li><a href="{{url('orders')}}">View Orders</a></li>
             <li><a href="{{url('account')}}">View Accounts</a></li>
-            <li><a href="{{url('blog')}}">View Blogs</a></li>
+            <li><a href="{{url('blogs')}}">View Blogs</a></li>
+            <li><a href="{{url('/blogs/article/{slug}')}}">Edit Blogs</a></li>
 
 </ul>
 @endsection

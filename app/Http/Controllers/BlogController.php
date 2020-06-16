@@ -49,25 +49,23 @@ class BlogController extends Controller
         return redirect('blogs')->with('success', "Article successfully posted");
     }
 
-    public function edit($id){
-        $blog = Blog::find($id);
+    public function edit($slug){
+        $blog = Blog::where('slug', $slug)->firstOrFail(); 
         $array = [
             'blog' => $blog
         ];
         return view('blog.edit', $array);
     }
 
-    public function update(Request $request, $id){
-        $blog = Blog::find($id);
-<<<<<<< HEAD
-        $blog->title = $request['title'];
-        $blog->body = $request['body'];
+    public function update(Request $request, $slug){
+        $blog = Blog::where('slug', $slug)->firstOrFail(); 
+        // $blog->title = $request['title'];
+        // $blog->body = $request['body'];
         $file = $request['image'];
         Cloudder::upload($file);
         $upload = Cloudder::getResult();
         $blog->image = $upload['url'];
         $blog->update();
-=======
         if($request['image'] != null){
             $image = $request['image'];
             Cloudder::upload($image);
@@ -78,7 +76,6 @@ class BlogController extends Controller
         $blog->body = $request['body'];
         $blog->update();
         return redirect('/blogs')->with('success', 'Blog successfully edited');
->>>>>>> c3d8bbface3af9afa0ea57ac288c064bcd3803bd
     }
 
 
@@ -86,6 +83,10 @@ class BlogController extends Controller
         $blog = Blog::where('slug', $slug)->firstOrFail(); 
         return view('blog.show')->with('blog', $blog);
     }
+
+    // public function show($id){
+        
+    // }
 
     public function destroy($id)
     {
