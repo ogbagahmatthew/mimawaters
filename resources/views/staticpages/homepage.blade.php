@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-    <title>RIIM FOODS | Home </title>
+    <title>MIMA WATER | Home </title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Pervasive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -18,7 +18,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
         }, false);
- 
+
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- //online-fonts -->
 </head>
 
-<body> 
+<body>
     <!-- banner -->
     <div class="banner">
         <!-- header -->
@@ -49,7 +49,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li class="nav-item active  mr-3 mt-lg-0 mt-3">
@@ -60,27 +59,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li class="nav-item  mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('about')}}">About</a>
                         </li>
-                        <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="{{url('products')}}">Products</a>
+						<li class="nav-item  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="{{url('services')}}">Services</a>
                         </li>
-						<!-- <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="{{url('services')}}"></a>
-                        </li> -->
-                        <!-- <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="{{url('blog')}}">Blog</a>
-                        </li>
+                       
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('userjobs')}}">Jobs</a>
-                        </li> -->
+                        </li>
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('contact')}}">Contact</a>
                         </li>
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('login')}}">Login</a>
                          </li>
-                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="{{url('register')}}">Register</a>
-                         </li> 
                     </ul>
                 </div>
             </nav>
@@ -90,78 +81,66 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <!-- banner-text -->
             
                 
-            <p class="__caption2">RIIM FOODS LTD</p>
-            <!--   -->
-            <!-- <div style="text-align: center;">
+            <p class="__caption">All over the world, clean water is a major challenge<br>for everyone. Developed, developing and underdeveloped<br>countries are all faced with this challenge.<br>With this product, MIMA 74 WATER CLEANSER <br>you are guaranteed of a clean and safe water<br>all day and year round</p>
+
+            <div style="text-align: center;">
                 <a class="btn __actionbtn" href="{{url('orders/create')}}">Make Orders Here</a>
                 <a class="btn __actionbtn" href= "{{url('stores')}}">STORES WHERE MIMA IS SOLD</a>
-            </div> -->
+            </div>
         </div>
     </div>
     <div class="container">
     <div class="__spacet5p"></div>
         <div class="row __flexsmall">
             <div class="col-lg-7 col-md-7 col-sm-7 __mobildown">
-                <p class="__abomi ">OUR PRODUCTS?</p>
-                <p class="__abomi1 ">Our products are the best in their category</p>
-                <p class="__abomi ">Burger Peanut</p>
-                <p class="__abomi1 ">Our berger peanut is the best in the market. its crunchy and yummy...</p>
-                <a href= "{{url('products')}}" class="btn __actionbtn">Read More</a>
+                <p class="__abomi ">Mima 74 Water Cleanser?</p>
+                <p class="__abomi1 ">Mima 74 water cleanser is a water disinfectant that has been approved by the Germany Agency for substance of Drinking water and NAFDAC in Nigeria. The product is borne out of necessity to have clean and safe drinking water. water that is free from all known pathogens withou having any side effect whatsoever.  People have complained about tasting susbtances when used to treat their water, with Mima 74 Water Cleanser, you can be assured of water without any taste or smell.   With Mima 74 water cleanser, your borehole, well and stream water is safe to drink...</p>
+                <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 __mobiup">
-                <img src="images/co.jpg" alt="" class="" style="width:100%">
+                <img src="images/mima bott.jpg" alt="" class="" style="width:100%">
             </div>
         </div>
 
         <div class="row ">
             
             <div class="col-lg-5 col-md-5 col-sm-5">
-                <img src="images/coo.jpeg" alt="" class="" style="width:100%">
+                <img src="images/girl.jpg" alt="" class="" style="width:100%">
             </div>
             <div class="col-lg-7 col-md-7 col-sm-7">
-                <p class="__abomi">Popcorn</p>
-                <p class="__abomi1">...</p>
-                <a href= "{{url('products')}}" class="btn __actionbtn">Read More</a>
+                <p class="__abomi">CLEAN WATER IS LIFE</p>
+                <p class="__abomi1">Clean and healthy water is a major challenge for many families but with us, every water is clean...</p>
+                <a href= "{{url('about')}}" class="btn __actionbtn">Read More</a>
             </div>
         </div>
 
-        <div class="row __flexsmall">
-            <div class="col-lg-7 col-md-7 col-sm-7 __mobildown">
-                <p class="__abomi ">Crunchy Corn</p>
-                <p class="__abomi1 ">Looking for crunchy corn flakes, look no further...</p>
-                <a href= "{{url('products')}}" class="btn __actionbtn">Read More</a>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-5 __mobiup">
-                <img src="images/co.jpg" alt="" class="" style="width:100%">
-            </div>
-        </div>
         <div class="__spacet5p"></div>
         <h3 class="tittle-w3ls pb-4">Our Services</h3>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/coo.jpeg');"></div>
+                    <div class="__img" style="background-image: url('images/mima water.jpg');"></div>
                     <p>Water is the basis of all life! 2/3 of the worldwide water resources are freshwater and only 3-4% of it can be used as drinking water.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/cooo.jpeg');"></div>
+                    <div class="__img" style="background-image: url('images/surface.jfif');"></div>
                     <p>Our product can be used to clean surfaces, toilets, tiles and sterilizing of clothes and napin. it is highly effective against germs, bacteria and viruses.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/coo.jpeg');"></div>
+                    <div class="__img" style="background-image: url('images/poultry.jfif');"></div>
                     <p>Our product eliminates micro-organisms in water that causes infectecions to poultry or fish farms</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>
              <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/co.jpg');"></div>
+                    <div class="__img" style="background-image: url('images/coli.jfif');"></div>
                     <p>Mima 74 water cleanser kills coliform bacteria 100% thereby preventing infections associated with water. If you know anyone suffering as a result of water related infections, we recommend this product.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
@@ -253,8 +232,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 								</div>
                             </li>
-                            </u>
-                            </div>
                             
                             <ul class="footer-social mt-md-4 mt-3">
 						<li class="mx-2">
@@ -291,124 +268,50 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 		</div>
+    </ul>
+</div>
+					<ul class="footer-social mt-md-4 mt-3">
+						
+							<a href="#">
+                                <i class="fa-facebook" aria-hidden="true"></i>
+								<span class="https://web.facebook.com/mimawater/inbox/"></span>
+							</a>
+						
+						<!-- <li class="mx-2">
+							<a href="#">
+								<span class="fa fa-twitter"></span>
+							</a>
+						</li>
+						<li class="mx-2">
+							<a href="#">
+								<span class="fab fa-google-plus-g"></span>
+							</a>
+						</li>
+						<li class="mx-2">
+							<a href="#">
+								<span class="fab fa-linkedin-in"></span>
+							</a>
+						</li>
+						<li class="mx-2">
+							<a href="#">
+								<span class="fas fa-rss"></span>
+							</a>
+						</li>
+						<li class="mx-2">
+							<a href="#">
+								<span class="fab fa-vk"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div> -->
 	</footer>
-	<div class="copyright py-3">
-		<p class="copy-right text-center ">&copy; 2018 Pervasive. All Rights Reserved | Design by
-			<a href="http://w3layouts.com/"> W3layouts </a>
-		</p>
-	</div>
-	<!-- //footer -->
-
-
-<!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
-<!-- //js -->
-<!-- stats -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countup.js"></script>
-		<script>
-			$('.counter').countUp();
-		</script>
-<!-- //stats -->
-  <!-- testimonials  Responsiveslides -->
-    <script src="js/responsiveslides.min.js"></script>
-    <script>
-        // You can also use"$(window).load(function() {"
-        $(function () {
-            // Slideshow 4
-            $("#slider3").responsiveSlides({
-                auto: true,
-                pager: true,
-                nav: false,
-                speed: 500,
-                namespace: "callbacks",
-                before: function () {
-                    $('.events').append("<li>before event fired.</li>");
-                },
-                after: function () {
-                    $('.events').append("<li>after event fired.</li>");
-                }
-            });
-
-        });
-    </script>
-    <!-- //testimonials  Responsiveslides -->
-<!--pop-up-box -->
-	<script src="js/jquery.magnific-popup.js"></script>
-	<script>
-		$(document).ready(function () {
-			$('.popup-with-zoom-anim').magnificPopup({
-				type: 'inline',
-				fixedContentPos: false,
-				fixedBgPos: true,
-				overflowY: 'auto',
-				closeBtnInside: true,
-				preloader: false,
-				midClick: true,
-				removalDelay: 300,
-				mainClass: 'my-mfp-zoom-in'
-			});
-		});
-	</script>
-	<!-- //pop-up-box -->
-
-<!-- script for password match -->
-    <script>
-        window.onload = function () {
-            document.getElementById("password1").onchange = validatePassword;
-            document.getElementById("password2").onchange = validatePassword;
-        }
-
-        function validatePassword() {
-            var pass2 = document.getElementById("password2").value;
-            var pass1 = document.getElementById("password1").value;
-            if (pass1 != pass2)
-                document.getElementById("password2").setCustomValidity("Passwords Don't Match");
-            else
-                document.getElementById("password2").setCustomValidity('');
-            //empty string means no validation error
-        }
-    </script>
-    <!-- script for password match -->
-    <!-- start-smooth-scrolling -->
-    <script src="js/move-top.js"></script>
-    <script src="js/easing.js"></script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 1000);
-            });
-        });
-    </script>
-    <!-- //end-smooth-scrolling -->
-    <!-- smooth-scrolling-of-move-up -->
-    <script>
-        $(document).ready(function () {
-            /*
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear' 
-            };
-            */
-
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-
-        });
-    </script>
-    <script src="js/SmoothScroll.min.js"></script>
-    <!-- //smooth-scrolling-of-move-up -->
-    <!-- Bootstrap core JavaScript
-================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <div class="copyright py-3">
+                <p class="copy-right text-center ">&copy; 2020 mima water. All Rights Reserved | Design by
+                    <a href="http://mimawaters.com/"> Peamat </a>
+                </p>
+            </div>
 </body>
 
 </html>
