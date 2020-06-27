@@ -72,11 +72,8 @@ Route::resource('products', 'ProductController');
 // Route::get('confirmorders', 'OrderController@confirmorder');
 Route::resource('blogs', 'BlogController');
 Route::get('/blogs/article/{slug}', 'BlogController@read');
-<<<<<<< HEAD
  
-=======
 Route::get('/blogs/article/{slug}/edit', 'BlogController@edit');
->>>>>>> 503ccd70cd902edcfe2730a2fc27469a52f66b94
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
