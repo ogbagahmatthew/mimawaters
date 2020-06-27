@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Feedback;
+use App\Mail\MessageSent;
+use Mail;
 
 class FeedbackController extends Controller
 {
@@ -65,6 +67,8 @@ class FeedbackController extends Controller
             $feedbacks->title= $request->input('title');
             $feedbacks->comment= $request->input('comment');
             $feedbacks->save();
+            $notificationEmail = 'ogbagahjb@gmail.com';
+            Mail::to($notificationEmail)->send(new MessageSent($feedbacks->firstname,$feedbacks->lastname,$feedbacks->title,$feedbacks->email, $feedbacks->comment));
             return redirect('/');
     }
 

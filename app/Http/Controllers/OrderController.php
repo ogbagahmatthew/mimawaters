@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Orders;
-use App\Confirmed;
+use Mail;
+use App\Mail\Messagesorders;
+// use App\Confirmed;
 class OrderController extends Controller
 {
     /**
@@ -60,6 +62,8 @@ class OrderController extends Controller
             // Hash::make($data['password']),
             // dd($request);
             $orders->save();
+            $notificationEmail = 'ogbagahjb@gmail.com';
+            Mail::to($notificationEmail)->send(new Messagesorders($orders->name,$orders->quantity,$orders->address,$orders->email, $orders->phone_no));
             return redirect('/');
     
     }

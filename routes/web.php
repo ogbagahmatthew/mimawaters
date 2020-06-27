@@ -1,5 +1,7 @@
 <?php
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,9 +13,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+//  Route::get('/admins', function () {
+//     return view('admins.dashboard');
+//  });
 
 Auth::routes();
 
@@ -56,6 +58,8 @@ Route::resource('jobs', 'JobController');
  Route::get('feedback/create', 'FeedbackController@create');
  Route::resource('orders', 'OrderController');
  Route::get('/Dashboard', 'CentraldashboardController@index');
+
+ Route::get('admin', 'CentraldashboardController@index');
  Route::resource('director', 'DirectorController');
 //  Route::resource('orders/create', 'OrderController@create');
 Route::resource('/account', 'AccountController');
@@ -68,6 +72,7 @@ Route::resource('confirms', 'ConfirmController');
 Route::get('confirmorders', 'OrderController@confirmorder');
 Route::resource('blogs', 'BlogController');
 Route::get('/blogs/article/{slug}', 'BlogController@read');
+ 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -49,6 +49,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li class="nav-item active  mr-3 mt-lg-0 mt-3">
@@ -240,6 +241,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 								</div>
                             </li>
+                            </u>
+                            </div>
                             
                             <ul class="footer-social mt-md-4 mt-3">
 						<li class="mx-2">
@@ -276,25 +279,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 		</div>
-    </ul>
-</div>
-					<ul class="footer-social mt-md-4 mt-3">
-                    <ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								</ul>
-				</div>
-			</div>
-		</div> -->
 	</footer>
-    <div class="copyright py-3">
-                <p class="copy-right text-center ">&copy; 2020 mima water. All Rights Reserved | Design by
-                    <a href="http://mimawaters.com/"> Peamat </a>
-                </p>
-            </div>
-            
+	<div class="copyright py-3">
+		<p class="copy-right text-center ">&copy; 2018 Pervasive. All Rights Reserved | Design by
+			<a href="http://w3layouts.com/"> W3layouts </a>
+		</p>
+	</div>
+	<!-- //footer -->
+
+
 <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
 <!-- //js -->
@@ -403,7 +396,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script> 
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
