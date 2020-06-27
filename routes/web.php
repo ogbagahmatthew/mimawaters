@@ -64,15 +64,19 @@ Route::resource('jobs', 'JobController');
 //  Route::resource('orders/create', 'OrderController@create');
 Route::resource('/account', 'AccountController');
 Route::resource('products', 'ProductController');
-Route::resource('updates', 'UpdateController');
-Route::resource('expenses', 'ExpensesController');
-Route::resource('applicant', 'ApplicantController');
-Route::get('userjobs', 'JobController@getuserjobs');
-Route::resource('confirms', 'ConfirmController');
-Route::get('confirmorders', 'OrderController@confirmorder');
+// Route::resource('updates', 'UpdateController');
+// Route::resource('expenses', 'ExpensesController');
+// Route::resource('applicant', 'ApplicantController');
+// Route::get('userjobs', 'JobController@getuserjobs');
+// Route::resource('confirms', 'ConfirmController');
+// Route::get('confirmorders', 'OrderController@confirmorder');
 Route::resource('blogs', 'BlogController');
 Route::get('/blogs/article/{slug}', 'BlogController@read');
+<<<<<<< HEAD
  
+=======
+Route::get('/blogs/article/{slug}/edit', 'BlogController@edit');
+>>>>>>> 503ccd70cd902edcfe2730a2fc27469a52f66b94
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

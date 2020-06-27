@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-    <title>MIMA WATER | Home </title>
+    <title>RIIM FOODS | Home </title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Pervasive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -61,11 +61,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <a class="nav-link" href="{{url('about')}}">About</a>
                         </li>
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="{{url('blogs')}}">Blog</a>
+                            <a class="nav-link" href="{{url('products')}}">Products</a>
                         </li>
-						<li class="nav-item  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="{{url('services')}}">Services</a>
-                        </li>
+						<!-- <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="{{url('services')}}"></a>
+                        </li> -->
                         <!-- <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('blog')}}">Blog</a>
                         </li>
@@ -78,9 +78,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('login')}}">Login</a>
                          </li>
-                         <!-- <li class="nav-item mr-3 mt-lg-0 mt-3">
+                         <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('register')}}">Register</a>
-                         </li> -->
+                         </li> 
                     </ul>
                 </div>
             </nav>
@@ -90,66 +90,78 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <!-- banner-text -->
             
                 
-            <p class="__caption">All over the world, clean water is a major challenge<br>for everyone. Developed, developing and underdeveloped<br>countries are all faced with this challenge.<br>With this product, MIMA 74 WATER CLEANSER <br>you are guaranteed of a clean and safe water<br>all day and year round</p>
+            <p class="__caption2">RIIM FOODS LTD</p>
             <!--   -->
-            <div style="text-align: center;">
+            <!-- <div style="text-align: center;">
                 <a class="btn __actionbtn" href="{{url('orders/create')}}">Make Orders Here</a>
                 <a class="btn __actionbtn" href= "{{url('stores')}}">STORES WHERE MIMA IS SOLD</a>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="container">
     <div class="__spacet5p"></div>
         <div class="row __flexsmall">
             <div class="col-lg-7 col-md-7 col-sm-7 __mobildown">
-                <p class="__abomi ">Mima 74 Water Cleanser?</p>
-                <p class="__abomi1 ">Mima 74 water cleanser is a water disinfectant that has been approved by the Germany Agency for substance of Drinking water and NAFDAC in Nigeria. The product is borne out of necessity to have clean and safe drinking water. water that is free from all known pathogens without having any side effect whatsoever.  People have complained about tasting susbtances when used to treat their water, with Mima 74 Water Cleanser, you can be assured of water without any taste or smell.   With Mima 74 water cleanser, your borehole, well and stream water is safe to drink...</p>
-                <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
+                <p class="__abomi ">OUR PRODUCTS?</p>
+                <p class="__abomi1 ">Our products are the best in their category</p>
+                <p class="__abomi ">Burger Peanut</p>
+                <p class="__abomi1 ">Our berger peanut is the best in the market. its crunchy and yummy...</p>
+                <a href= "{{url('products')}}" class="btn __actionbtn">Read More</a>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 __mobiup">
-                <img src="images/mima bottle.jpg" alt="" class="" style="width:100%">
+                <img src="images/co.jpg" alt="" class="" style="width:100%">
             </div>
         </div>
 
         <div class="row ">
             
             <div class="col-lg-5 col-md-5 col-sm-5">
-                <img src="images/girl.jpg" alt="" class="" style="width:100%">
+                <img src="images/coo.jpeg" alt="" class="" style="width:100%">
             </div>
             <div class="col-lg-7 col-md-7 col-sm-7">
-                <p class="__abomi">CLEAN WATER IS LIFE</p>
-                <p class="__abomi1">Clean and healthy water is a major challenge for many families but with us, every water is clean...</p>
-                <a href= "{{url('about')}}" class="btn __actionbtn">Read More</a>
+                <p class="__abomi">Popcorn</p>
+                <p class="__abomi1">...</p>
+                <a href= "{{url('products')}}" class="btn __actionbtn">Read More</a>
             </div>
         </div>
 
+        <div class="row __flexsmall">
+            <div class="col-lg-7 col-md-7 col-sm-7 __mobildown">
+                <p class="__abomi ">Crunchy Corn</p>
+                <p class="__abomi1 ">Looking for crunchy corn flakes, look no further...</p>
+                <a href= "{{url('products')}}" class="btn __actionbtn">Read More</a>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 __mobiup">
+                <img src="images/co.jpg" alt="" class="" style="width:100%">
+            </div>
+        </div>
         <div class="__spacet5p"></div>
         <h3 class="tittle-w3ls pb-4">Our Services</h3>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/mima water.jpg');"></div>
+                    <div class="__img" style="background-image: url('images/coo.jpeg');"></div>
                     <p>Water is the basis of all life! 2/3 of the worldwide water resources are freshwater and only 3-4% of it can be used as drinking water.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/surface.jfif');"></div>
+                    <div class="__img" style="background-image: url('images/cooo.jpeg');"></div>
                     <p>Our product can be used to clean surfaces, toilets, tiles and sterilizing of clothes and napin. it is highly effective against germs, bacteria and viruses.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/poultry.jfif');"></div>
+                    <div class="__img" style="background-image: url('images/coo.jpeg');"></div>
                     <p>Our product eliminates micro-organisms in water that causes infectecions to poultry or fish farms</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>
              <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
-                    <div class="__img" style="background-image: url('images/coli.jfif');"></div>
+                    <div class="__img" style="background-image: url('images/co.jpg');"></div>
                     <p>Mima 74 water cleanser kills coliform bacteria 100% thereby preventing infections associated with water. If you know anyone suffering as a result of water related infections, we recommend this product.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
