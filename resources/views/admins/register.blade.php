@@ -16,27 +16,40 @@ Dashboard Mima Water
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title"> Simple Table</h4>
+                <h4 class="card-title"> Register Table</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
                     <thead class=" text-primary">
                       <th>
-                        Name
-                        <a href="service">
+                        Firstname
                       </th>
                       <th>
-                        Country
+                        Lastname
                       </th>
                       <th>
-                        City
+                        Email
+                      </th>
+                      <th>
+                        User Type
+                      </th>
+                      <th>
+                        Edit
+                      </th>
+                      <th>
+                        Delete
                       </th>
                       <th class="text-right">
                         Salary
                       </th>
                     </thead>
-                </div>
+                    <tbody>
+                    <tr>
+                    <td>name</td>
+                    <td>888</td>
+                    <td>matthew
+                                    </div>
               </div>
             </div>
           </div>

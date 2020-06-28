@@ -63,9 +63,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <a class="nav-link" href="{{url('services')}}">Services</a>
                         </li>
                        
-                        <li class="nav-item mr-3 mt-lg-0 mt-3">
+                        <!-- <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('userjobs')}}">Jobs</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('contact')}}">Contact</a>
                         </li>
@@ -81,7 +81,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <!-- banner-text -->
             
                 
-            <p class="__caption">All over the world, clean water is a major challenge<br>for everyone. Developed, developing and underdeveloped<br>countries are all faced with this challenge.<br>With this product, MIMA 74 WATER CLEANSER <br>you are guaranteed of a clean and safe water<br>all day and year round</p>
+            <p class="__caption">
+            MIMA WATER, CLEAN WATER IS LIFE.<br>
+            <!-- STAY SAFE THIS CRITICAL TIME -->
+            <!-- All over the world, clean water is a major challenge<br>for everyone. Developed, developing and underdeveloped<br>countries are all faced with this challenge.<br>With this product, MIMA 74 WATER CLEANSER <br>you are guaranteed of a clean and safe water<br>all day and year round -->
+            </p>
 
             <div style="text-align: center;">
                 <a class="btn __actionbtn" href="{{url('orders/create')}}">Make Orders Here</a>
@@ -160,43 +164,43 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
 
 	<!-- footer -->
-	<footer class="footer-emp bg-dark py-5">
+		
+<footer class="footer-emp bg-dark py-5">
 		<div class="container">
 			<div class="row footer-top">
-				<!-- <div class="col-lg-4 footer-grid pr-5">
+				<div class="col-lg-4 footer-grid pr-5">
 					<h2 class="footer-title border-bottom text-uppercase mb-4 pb-3">About Us</h2>
 					<div class="footer-text">
 						
-						<p> Our focus is on proucts for water <br>preparation and disinfection. <br>We use the manifold knowledge of our employees in production, <br>quality assurance, stock management, and distribution.
-                            <br>A lot of manmade environemental pollutions such as untreated <br>wastewater from households, cities, factories, animal farms,<br> and over-fertilized fields contaminate rivers and lakes..</p>
+						<p>We are a young medium-sized company Our focus is on proucts for water preparation and disinfection. We use the manifold knowledge of our employees in production, quality assurance, ...</p>
 
 					</div>
-				</div> -->
-				<!-- <div class="col-lg-4 footer-grid my-lg-0 my-4">
+				</div>
+				<div class="col-lg-4 footer-grid my-lg-0 my-4">
 					<h3 class="footer-title border-bottom text-uppercase mb-4 pb-3">Quick Links</h3>
 					<ul class="links list-unstyled">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="">Home</a>
 						</li>
 						<li class="my-2">
-							<a href="{{url('about')}}">About Us</a>
+							<a href="about">About Us</a>
 						</li>
 						<li>
-							<a href="{{url('sevices')}}">Services</a>
+							<a href="services">Services</a>
 						</li>
-						<li class="my-2">
+						<!-- <li class="my-2">
 							<a href="gallery.html">Gallery</a>
-						</li>
-						<li>
+						</li> -->
+						<!-- <li>
 							<a href="typo.html">Typography</a>
-						</li>
+						</li> -->
 						<li class="mt-2">
-							<a href="{{url('contact')}}">Contact</a>
+							<a href="contact">Contact</a>
 						</li>
 					</ul>
 					
 					
-				</div> -->
+				</div>
 				<div class="col-lg-4 footer-grid">
 					<h3 class="footer-title border-bottom text-uppercase mb-4 pb-3">Contact Us</h3>
 					<div class="contact-info">
@@ -204,114 +208,164 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li>
 								<div class="row">
 									<div class="col-1">
-										<i class="fas fa-map-marker"></i>
+										<!-- <i class="fas fa-map-marker"></i> -->
 									</div>
-									<div class="col-11">
-										<p>MIMA SHITTU WAGNER NIGERIA LIMITED
-											<span>1, Agboola Aina Street, <br>Off Amore By St. Leo Catholic Church, <br>Toyin Street, Ikeja, Lagos</span></p>
-									</div>
-								</div>
-							</li>
-							<li class="my-2">
-								<div class="row">
-									<div class="col-1">
-										<i class="fas fa-phone"></i>
-									</div>
-									<div class="col-11">
-										<p>08132194748</p>
+									<!-- <div class="col-11"> -->
+                                    <div class="footer-text">
+										<p>
+                                        <a>Mima Shittu Wagner Nig LTd</a><br>
+										<a><span>1, Agboola Aina Street, Off Amore by St. Leo Catholic Church, Toyin Street, Ikeja</span>Lagos, Nigeria.</a> <br>
+                                    <a>08132194748</a> <br>
+									<a><span>08055524300</span></a><br>
+										<a href="mailto:info@riimsfood.ng">info@mimawaters.com</a>
+                                        </p>
 									</div>
 								</div>
 							</li>
-							<li>
-								<div class="row">
-									<div class="col-1">
-										
-									</div>
-									<div class="col-11">
-										<a href="mailto:sales@mimawaters">sales@mimawaters.com</a>
-									</div>
-								</div>
-                            </li>
-                            
-                            <ul class="footer-social mt-md-4 mt-3">
+						</ul>
+
+					</div>
+                    <ul class="footer-social mt-md-4 mt-3">
 						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-facebook-f"></span>
-							</a>
+                        <a class="footer-social-facebook" rel="nofollow noopener" href="https://web.facebook.com/mimawater/inbox/" target="_blank">
+                        <!-- <span class="footer-social-icon fa fa-facebook" aria-hidden="true"></span>  -->
+                        <img src="images/face.png" style="width: 15px;">
+                        Facebook</a>
+				
 						</li>
 						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-twitter"></span>
-							</a>
+                        <a class="footer-social-twitter" rel="nofollow noopener" href="https://twitter.com/findlawconsumer" target="_blank">
+                        <!-- <span class="footer-social-icon fa fa-twitter" aria-hidden="true"></span> -->
+                            <img src="images/twit.png" style="width: 15px;">Twitter</a>
 						</li>
 						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-google-plus-g"></span>
-							</a>
-						</li>
-						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-linkedin-in"></span>
-							</a>
-						</li>
-						<li class="mx-2">
-							<a href="#">
-								<span class="fas fa-rss"></span>
-							</a>
-						</li>
-						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-vk"></span>
-							</a>
+                        <a class="footer-social-youtube" rel="nofollow noopener" href="https://www.youtube.com/watch?v=WQiNbzazOhw" target="_blank">
+                        <!-- <span class="footer-social-icon fa fa-youtube-play" aria-hidden="true"></span> -->
+                        <img src="images/goog.jpeg" style="width: 15px;">
+                        YouTube</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-    </ul>
-</div>
-					<ul class="footer-social mt-md-4 mt-3">
-						
-							<a href="#">
-                                <i class="fa-facebook" aria-hidden="true"></i>
-								<span class="https://web.facebook.com/mimawater/inbox/"></span>
-							</a>
-						
-						<!-- <li class="mx-2">
-							<a href="#">
-								<span class="fa fa-twitter"></span>
-							</a>
-						</li>
-						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-google-plus-g"></span>
-							</a>
-						</li>
-						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-linkedin-in"></span>
-							</a>
-						</li>
-						<li class="mx-2">
-							<a href="#">
-								<span class="fas fa-rss"></span>
-							</a>
-						</li>
-						<li class="mx-2">
-							<a href="#">
-								<span class="fab fa-vk"></span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div> -->
 	</footer>
-    <div class="copyright py-3">
-                <p class="copy-right text-center ">&copy; 2020 mima water. All Rights Reserved | Design by
-                    <a href="http://mimawaters.com/"> Peamat </a>
-                </p>
-            </div>
+	<!-- <div class="copyright py-3">
+		<p class="copy-right text-center ">&copy; 2018 Pervasive. All Rights Reserved | Design by
+			<a href="http://w3layouts.com/"> W3layouts </a>
+		</p>
+	</div> -->
+	<!-- //footer -->
+
+
+<!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+<!-- //js -->
+<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+		<script>
+			$('.counter').countUp();
+		</script>
+<!-- //stats -->
+  <!-- testimonials  Responsiveslides -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use"$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider3").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <!-- //testimonials  Responsiveslides -->
+<!--pop-up-box -->
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});
+		});
+	</script>
+	<!-- //pop-up-box -->
+
+<!-- script for password match -->
+    <script>
+        window.onload = function () {
+            document.getElementById("password1").onchange = validatePassword;
+            document.getElementById("password2").onchange = validatePassword;
+        }
+
+        function validatePassword() {
+            var pass2 = document.getElementById("password2").value;
+            var pass1 = document.getElementById("password1").value;
+            if (pass1 != pass2)
+                document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+            else
+                document.getElementById("password2").setCustomValidity('');
+            //empty string means no validation error
+        }
+    </script>
+    <!-- script for password match -->
+    <!-- start-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

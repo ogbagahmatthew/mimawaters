@@ -162,7 +162,7 @@ a.navbar-brand i {
 /* banner */
 
 .banner {
-	background:linear-gradient(to bottom right,rgba(20, 10, 10, 0.56),rgba(0, 0, 0, 0.56)), url(../images/co.jpg) center no-repeat;
+	background:linear-gradient(to bottom right,rgba(20, 10, 10, 0.56),rgba(0, 0, 0, 0.56)), url(../images/riv.jpg) center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

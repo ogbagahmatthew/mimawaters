@@ -13,9 +13,9 @@
 |
 */
 
-//  Route::get('/admins', function () {
-//     return view('admins.dashboard');
-//  });
+ Route::get('/admins', function () {
+    return view('admins.register');
+ });
 
 Auth::routes();
 
