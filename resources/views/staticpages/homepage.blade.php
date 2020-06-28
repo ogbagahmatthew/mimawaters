@@ -227,7 +227,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
                     <ul class="footer-social mt-md-4 mt-3">
 						<li class="mx-2">
-                        <a class="footer-social-facebook" rel="nofollow noopener" href="https://web.facebook.com/mimawater/inbox/" target="_blank">
+                        <a class="footer-social-facebook" rel="nofollow noopener" href="https://web.facebook.com/mimawater/?ref=page_internal&_rdc=1&_rdr" target="_blank">
                         <!-- <span class="footer-social-icon fa fa-facebook" aria-hidden="true"></span>  -->
                         <img src="images/face.png" style="width: 15px;">
                         Facebook</a>
