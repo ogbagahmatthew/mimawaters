@@ -160,7 +160,7 @@ a.navbar-brand i {
 /*-- //header --*/
 
 /* banner */
-
+/* 
 .banner {
 	background:linear-gradient(to bottom right,rgba(20, 10, 10, 0.56),rgba(0, 0, 0, 0.56)), url(../images/riv.jpg) center no-repeat;
 	-webkit-background-size: cover;
@@ -170,7 +170,7 @@ a.navbar-brand i {
 	background-size: cover;
 	background-position: center;
     height: 75vh;
-}
+} */
 
 .inner-banner {
     background: url(../images/newwa.jpg) no-repeat;
