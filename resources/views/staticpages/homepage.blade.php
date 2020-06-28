@@ -102,7 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 __mobiup">
-                <img src="images/mima bott.jpg" alt="" class="" style="width:100%">
+                <img src="images/mima bottle.jpg" alt="" class="" style="width:100%">
             </div>
         </div>
 
