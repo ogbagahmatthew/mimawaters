@@ -82,8 +82,40 @@
     <div class="agileits-services py-md-5 py-4">
         <div class="container py-lg-5">
         <div class="col-lg-5 col-md-5 col-sm-5 __mobildown">
-                <img src="images/mima pack.jpg" alt="" class="" style="width:100%">
+                {{-- <img src="images/mima pack.jpg" alt="" class="" style="width:100%"> --}}
             </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="__ourscard">
+                        <div class="__img" style="background-image: url('images/P3.JPG');"></div>
+                        {{-- <p>Water is the basis of all life! 2/3 of the worldwide water resources are freshwater and only 3-4% of it can be used as drinking water.</p> --}}
+                        {{-- <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a> --}}
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="__ourscard">
+                        <div class="__img" style="background-image: url('images/P1.JPG');"></div>
+                        {{-- <p>Our product can be used to clean surfaces, toilets, tiles and sterilizing of clothes and napin. it is highly effective against germs, bacteria and viruses.</p> --}}
+                        {{-- <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a> --}}
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="__ourscard">
+                        <div class="__img" style="background-image: url('images/P2.JPG');"></div>
+                        {{-- <p>Our product eliminates micro-organisms in water that causes infectecions to poultry or fish farms</p> --}}
+                        {{-- <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a> --}}
+                    </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="__ourscard">
+                        <div class="__img" style="background-image: url('images/mima pack.jpg" alt="" class="" style="width:100%"></div>
+                        {{-- <p>Mima 74 water cleanser kills coliform bacteria 100% thereby preventing infections associated with water. If you know anyone suffering as a result of water related infections, we recommend this product.</p> --}}
+                        {{-- <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a> --}}
+                    </div>
+                </div>
+                 
+            </div>
+    
             <div class="text-center wthree-title pb-sm-5 pb-3">
             <p class="__abomi ">MIMA 74 WATER CLEANSER</p>
                 <p class="__abomi1 ">

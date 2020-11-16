@@ -69,7 +69,7 @@
     <div class="agileits-services py-md-5 py-4">
         <div class="container py-lg-5">
         <div class="col-lg-5 col-md-5 col-sm-5 __mobildown">
-                <img src="images/mima pack.jpg" alt="" class="" style="width:100%">
+                <img src="images/P2.JPG" alt="" class="" style="width:100%">
             </div>
         <div class="col-lg-7 col-md-7 col-sm-7 ____mobiup">
             <p class="__abomi ">contact</p> 

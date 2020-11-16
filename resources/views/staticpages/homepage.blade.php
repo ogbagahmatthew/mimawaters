@@ -82,17 +82,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             
                 
             <p class="__caption">
-            MIMA WATER, CLEAN WATER IS LIFE.<br>
+            MIMA WATER, CLEAN WATER IS LIFE!!!!!!!!!!<br>
             <!-- STAY SAFE THIS CRITICAL TIME -->
             <!-- All over the world, clean water is a major challenge<br>for everyone. Developed, developing and underdeveloped<br>countries are all faced with this challenge.<br>With this product, MIMA 74 WATER CLEANSER <br>you are guaranteed of a clean and safe water<br>all day and year round -->
             </p>
-
+            {{-- <div class="__spacet5p"></div> --}}
+          
+    
+            
             <div style="text-align: center;">
                 <a class="btn __actionbtn" href="{{url('orders/create')}}">Make Orders Here</a>
                 <a class="btn __actionbtn" href= "{{url('stores')}}">STORES WHERE MIMA IS SOLD</a>
             </div>
+            <div style="text-align: center;">
+                <a class="btn __actionbtn1" href= "{{url('stores')}}">DISTRIBUTORS NEEDED NATIONWIDE</a>
+            </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="__spacet5p"></div>
+            <div class="row __flexsmall">
+                <div class="col-lg-7 col-md-7 col-sm-7 __mobildown">
+                    <p class="__abomi ">Mima 74 Water Cleanser(PREMIUM PACK)?</p>
+                    <p class="__abomi1 ">In the last one year o being in the Nigeria market, we have witnessed increased demand for the product. Many have called to have the product in smaller packs that would make it affordable for everyone. After several months of working on it, we now have the PREMIUM PACK in stores and pharmacies Nationwide.  The product is borne out of necessity to have clean and safe drinking water. water that is free from all known pathogens withou having any side effect whatsoever.  People have complained about tasting susbtances when used to treat their water, with Mima 74 Water Cleanser, you can be assured of water without any taste or smell.   With Mima 74 water cleanser, your borehole, well and stream water is safe to drink...</p>
+                    <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 __mobiup">
+                    <img src="images/Mima 1.png" alt="" class="" style="width:100%">
+                </div>
+            </div>
+
     <div class="container">
     <div class="__spacet5p"></div>
         <div class="row __flexsmall">
@@ -119,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
 
         <div class="__spacet5p"></div>
-        <h3 class="tittle-w3ls pb-4">Our Services</h3>
+        <h3 class="tittle-w3ls pb-4">USES OF OUR PRODUCT</h3>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
@@ -214,7 +234,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <div class="footer-text">
 										<p>
                                         <a>Mima Shittu Wagner Nig LTd</a><br>
-										<a><span>1, Agboola Aina Street, Off Amore by St. Leo Catholic Church, Toyin Street, Ikeja</span>Lagos, Nigeria.</a> <br>
+										<a><span>Greenland Estate, Estate Bus stop, Asese, Lagos Ibadan Expressway</span>Ogun State, Nigeria.</a> <br>
                                     <a>08132194748</a> <br>
 									<a><span>08055524300</span></a><br>
 										<a href="mailto:info@riimsfood.ng">info@mimawaters.com</a>

@@ -69,43 +69,75 @@
     <div class="agileits-services py-md-5 py-4">
         <div class="container py-lg-5">
         <div class="col-lg-7 col-md-7 col-sm-7 ____mobiup">
-            <p class="__abomi ">stores</p> 
+            <p class="__abomi ">STORES/PHARMACIES</p>
+            <p class="__abomi ">LAGOS STATE</p>
             <p class="__abomi1 ">
             *Jendol Abule Egba<br>
             *Jendol Egbeda<br>
             *Jendol Isheri<br>
-            *Twins Faja Ikotun, Iba, Abaranje and Carwash Egbeda<br>
+            *Jendol Jakande Gate Isolo<br>
+            *Twins Faja Ikotun<br>
+            *Twins Faja Iba <br>
+            *Twins Faja Abaranje<br>
+            *Twins Faja Carwash Egbeda<br>
             *Blenco Ado Road Ajah<br>
             *Blenco Akowonjo<br>
+            *Blenco Sangotedo<br>
             *Hutos Superstore Agege<br>
             *De Prince Gbagada<br>
             *Westgate Mall Olowora<br>
             *Globus stores in Egbe, Isolo and Okota<br>
             *Supersaver Superstore Ajao Estate and Ikosi Road<br>
-            *Wisebuyer superstore Arepo<br>
-            *Supershoppy Magboro<br>
             *Tonyson supermarket Yaba<br>
-            *Lifeback supermarket Yaba<br>
+            *Lifeback supermarket Yaba<br><br>
+            *Follyma Alakuko<br>
+            Juli Pharmacy, Ikeja<br>
+            *Naza Pharmacy Oworo<br>
+            *Pharma Care Festac <br>
+            *Pharma Care Community Road Abule Ado<br>
+            *Pharma Care Satelite <br>
+            *Prinogold Agric Ikorodu<br>
+            *Teslon Agric Ikorodu<br>
+            J.B.C Ogba<br>
+            Jimson Pharmacy, Obawole Iju<br>
+            Come Alive Gbagada<br>
+            3D Radiance Ifako Gbagada<br><br>
+            Surplus Pharmacy Ladi-Lak, Bariga<br>
+            Drug Consult, Opposite Gbaja General Hospital, Gbaja Surulere<br>
+            Classic Pharmacy, Ojuelegba<br>
+            Nemmit Funsho Williams Avenue, Ojuelegba<br>
+            Megosa Pharmacy, Orile Coker Bridge<br>
+            BlueSeal Pharmacy Amuwo Odofin<br>
+            Beach Town Superstore Badagry<br>
+            Beach Town superstore Agbara Mall<br><br>
+            
+             <p class="__abomi ">OGUN STATE</p>
+             <p class="__abomi1 ">
 
-             PHARMACIES<br>
-             *Follyma Alakuko<br>
-             *Romitel Mowe<br>
-             *Naza Pharmacy Oworo<br>
-             *Pharma Care Festac, Satelite and Abuja<br>
-             *A.N.Choice Mowe<br>
-             *Prinogold Agric Ikorodu<br>
-             *Teslon Agric Ikorodu<br>
-             J.B.C Ogba<br>
+             Unveil Pharmacy By Sango Bridge, Sango Ota<br>
+             Josrite Pharmacy, Oja Ota, Ota<br>
+             Rayfield Pharmacy, Vasper  Bus Stop, Ifo<br>
+             O'Jez Pharmacy Magboro<br>
              Elyon Akute<br>
-             Come Alive Gbagada<br>
-             3D Radiance Ifako Gbagada<br>
+             *Romitel Mowe<br><br>
+             *Wisebuyer superstore Arepo<br>
+             Cibeth Pharmacy Arepo<br>
+             *Supershoppy Magboro<br>
+
+             <p class="__abomi ">IBADAN, OYO STATE</p>
+             <p class="__abomi1 ">
+
+             Kunle Ara Pharmacy, Opposite UCH, Ibadan<br> 
+             Troley Health and supermarket, Iwo Road<br>
+             Robakeye Pharmacy Ologun Eru Ibadan<br>
+             Hamygladin Pharmacy, Oduduwa House, Idi-Ape <br><br>
 
              AND MANY OTHERS.<br>
             Kindly order for the product on our site and it shall be delivered to your door step
                 </p>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-5 __mobildown">
-                <img src="images/mimaboy.jfif" alt="" class="" style="width:100%">
+                <img src="images/P2.JPG" alt="" class="" style="width:100%">
             </div>
             </div>
            

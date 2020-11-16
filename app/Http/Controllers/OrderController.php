@@ -50,7 +50,7 @@ class OrderController extends Controller
             'quantity' => 'required',
             'email' => 'required',
             'address' => 'required',
-            'phone_no' =>'required',
+            // 'phone_no' =>'required',
         ]);
 
         $orders= new Orders;
