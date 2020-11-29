@@ -22,13 +22,14 @@ Auth::routes();
 // Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about', 'StaticPagesController@about');
 Route::get('/contact', 'StaticPagesController@contact');
-Route::get('/', 'StaticPagesController@homepage');
+Route::get('/', 'StaticPagesController@homepage')->name('homepage');
 Route::get('/services', 'StaticPagesController@services');
 Route::get('/jobs', 'StaticPagesController@jobs');
 Route::get('/make', 'StaticPagesController@make');
 Route::get('/profile', 'StaticPagesController@profile');
 Route::get('/mima', 'StaticPagesController@mima');
 Route::get('/stores', 'StaticPagesController@stores');
+Route::get('/read', 'StaticPagesController@read');
 Auth::routes();
 
  Route::get('/home', 'HomeController@index')->name('home');
@@ -52,8 +53,8 @@ Route::resource('jobs', 'JobController');
 //  Route::get('jobs.index', 'JobController');
 // Route::get('jobs/applicant', 'JobController');
  Route::resource('sales', 'SalesController'); # A user
+ Route::resource('distributors', 'DistributorController');
  Route::resource('salesreport', 'SalesreportController'); # Daily entry
-//  Route::get('salesreport/create', 'SalesreportController');
  Route::resource('feedback', 'FeedbackController');
  Route::get('feedback/create', 'FeedbackController@create');
  Route::resource('orders', 'OrderController');

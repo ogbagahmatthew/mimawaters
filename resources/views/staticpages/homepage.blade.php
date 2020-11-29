@@ -52,6 +52,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li class="nav-item active  mr-3 mt-lg-0 mt-3">
+                    <a href="https://api.whatsapp.com/send?phone=08132194748&text=welcome to Mima water&source=&data=">Chat us On Whatsapp or Call 08132194748</a>
+                        </li>
+                    {{-- <ul class="navbar-nav ml-lg-auto text-center --}}
+                        <li class="nav-item active  mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('')}}">Home</a>
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -95,7 +99,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <a class="btn __actionbtn" href= "{{url('stores')}}">STORES WHERE MIMA IS SOLD</a>
             </div>
             <div style="text-align: center;">
-                <a class="btn __actionbtn1" href= "{{url('stores')}}">DISTRIBUTORS NEEDED NATIONWIDE</a>
+                <a class="btn __actionbtn1" href= "{{url('distributors/create')}}">DISTRIBUTORS NEEDED NATIONWIDE</a>
             </div>
         </div>
     </div>
@@ -105,7 +109,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="row __flexsmall">
                 <div class="col-lg-7 col-md-7 col-sm-7 __mobildown">
                     <p class="__abomi ">Mima 74 Water Cleanser(PREMIUM PACK)?</p>
-                    <p class="__abomi1 ">In the last one year o being in the Nigeria market, we have witnessed increased demand for the product. Many have called to have the product in smaller packs that would make it affordable for everyone. After several months of working on it, we now have the PREMIUM PACK in stores and pharmacies Nationwide.  The product is borne out of necessity to have clean and safe drinking water. water that is free from all known pathogens withou having any side effect whatsoever.  People have complained about tasting susbtances when used to treat their water, with Mima 74 Water Cleanser, you can be assured of water without any taste or smell.   With Mima 74 water cleanser, your borehole, well and stream water is safe to drink...</p>
+                    <p class="__abomi1 ">In the last one year of being in the Nigeria market, we have witnessed increased demand for the product. Many have called to have the product in smaller packs that would make it affordable for everyone. After several months of working on it, we now have the PREMIUM PACK in stores and pharmacies Nationwide.  The product is borne out of necessity to have clean and safe drinking water. water that is free from all known pathogens withou having any side effect whatsoever.  People have complained about tasting susbtances when used to treat their water, with Mima 74 Water Cleanser, you can be assured of water without any taste or smell.   With Mima 74 water cleanser, your borehole, well and stream water is safe to drink...</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-5 __mobiup">

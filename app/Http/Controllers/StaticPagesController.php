@@ -33,5 +33,8 @@ class StaticPagesController extends Controller
     public function stores(){
         return view('staticpages.stores');
     }
+    public function read(){
+        return view('staticpages.read');
+    }
 }
 
