@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\distributors;
 use Mail;
-use App\Mail\Messagedistributor;
+use App\Mail\messagedistributor;
 // use App\Confirmed;
 class distributorController extends Controller
 {
@@ -64,13 +64,17 @@ class distributorController extends Controller
             // Hash::make($data['password']),
             // dd($request);
             $distributors->save();
-            // return 4444;
+            // // return 4444;
+            // $notificationEmail = 'ogbagahjb@gmail.com';
+            // // $notificationEmail = 'mimawatercleanser@gmail.com';
+            // // $notificationEmail = 'sales@waterchemicals.com';
+            // Mail::to($notificationEmail)->send(new Messagedistributor($distributors->name,$distributors->business_name,$distributors->business_address,$distributors->email, $distributors->phone_no));
+            // // return 44444;
+            // return redirect()->route('homepage');
             $notificationEmail = 'ogbagahjb@gmail.com';
-            $notificationEmail = 'mimawatercleanser@gmail.com';
-            $notificationEmail = 'sales@waterchemicals.com';
+            // $notificationEmail = 'mimawatercleanser@gmail.com';
             Mail::to($notificationEmail)->send(new Messagedistributor($distributors->name,$distributors->business_name,$distributors->business_address,$distributors->email, $distributors->phone_no));
-            // return 44444;
-            return redirect()->route('homepage');
+            return redirect('/');
     
     }
 

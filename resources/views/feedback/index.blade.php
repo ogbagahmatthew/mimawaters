@@ -56,7 +56,6 @@
                                            
                                             <td class="text">
                                                 <a href="{{url('/feedback')}}/{{$feedback->id}}" class="btn btn-warning">VIEW feedbacks</a>
-                                                {{-- <a href="{{url('/feedback')}}/{{$courses->id}}/edit" class="btn btn-warning">EDIT program</a> --}}
                                             </td>
                                         </tr>
                                         @endforeach

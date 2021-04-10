@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
 <link href="{{ asset('css/style/style.css')}}" rel="stylesheet">

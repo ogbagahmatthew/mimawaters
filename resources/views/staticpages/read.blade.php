@@ -72,19 +72,15 @@
                 <img src="images/P2.JPG" alt="" class="" style="width:100%">
             </div>
             
-        <div class="col-lg-7 col-md-7 col-sm-7 ____mobiup">
+            <div class="text-center wthree-title pb-sm-5 pb-3">
             <p class="__abomi ">CAUSES AND PREVENTION OF TYPHOID FEVER!</p> 
             <p class="__abomi1 ">Typhoid fever is caused by Salmonella typhi bacteria. Typhoid fever is rare in developed countries. It is still a serious health threat in the developing world, especially for children.
 
-                Contaminated food and water or close contact with an infected person cause typhoid fever. Signs and symptoms usually include:
-                
-                High fever
-                Headache
-                Stomach pain
-                Constipation or diarrhea
+                Contaminated food and water or close contact with an infected person cause typhoid fever. One other common Sources of Typhoid is through Raw fruits and Vegetables.
+            
                 Most people who have typhoid fever feel better a few days after they start antibiotic treatment, but a small number of them may die of complications. Vaccines against typhoid fever are only partially effective. Vaccines usually are reserved for those who may be exposed to the disease or who are traveling to areas where typhoid fever is common.</p>
                 
-                <div class="col-lg-7 col-md-7 col-sm-7 ____mobiup">
+                
                     <p class="__abomi ">SYMPTOMS</p> 
                     <p class="__abomi1 ">
                 
@@ -92,23 +88,23 @@
                 
                 Early illness Signs and symptoms include:<br>
                 
-                *Headache
-                *Weakness and fatigue
-                *Muscle aches
-                *Sweating
-                *Dry cough
-                *Loss of appetite and weight loss
-                *Stomach pain
-                *Diarrhea or constipation
-                *Rash
+                *Headache<br>
+                *Weakness and fatigue<br>
+                *Muscle aches<br>
+                *Sweating<br>
+                *Dry cough<br>
+                *Loss of appetite and weight loss<br>
+                *Stomach pain<br>
+                *Diarrhea or constipation<br>
+                *Rash<br>
                 *Extremely swollen stomach</p>
 
-                <div class="col-lg-7 col-md-7 col-sm-7 ____mobiup">
+                {{-- <div class="col-lg-7 col-md-7 col-sm-7 ____mobiup"> --}}
                     <p class="__abomi ">PREVENTION</p> 
                     <p class="__abomi1 "> 
-Safe drinking water, improved sanitation and adequate medical care can help prevent and control typhoid fever. Unfortunately, in many developing nations, these may be difficult to achieve. For this reason, some experts believe that vaccines are the best way to control typhoid fever.
+Safe drinking water, improved sanitation and adequate medical care can help prevent and control typhoid fever. Unfortunately, in many developing nations, these may be difficult to achieve. For this reason, some experts believe that sterilizing your water against water related infections are the best way to control typhoid fever.
 
-A vaccine is recommended if you live in or are traveling to areas where the risk of getting typhoid fever is high.</p>
+Mima 74 Water Cleanser is recommended if you live in or are traveling to areas where the risk of getting typhoid fever is high.</p>
                 </p>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-5 __mobildown">

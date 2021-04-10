@@ -51,10 +51,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
+                        
                         <li class="nav-item active  mr-3 mt-lg-0 mt-3">
-                    <a href="https://api.whatsapp.com/send?phone=08132194748&text=welcome to Mima water&source=&data=">Chat us On Whatsapp or Call 08132194748</a>
+                    <a href="https://api.whatsapp.com/send?phone=+2348132194748&text=welcome to Mima water&source=&data=">Chat us On Whatsapp or Call 08132194748</a>
                         </li>
-                    {{-- <ul class="navbar-nav ml-lg-auto text-center --}}
                         <li class="nav-item active  mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="{{url('')}}">Home</a>
                                 <span class="sr-only">(current)</span>
@@ -86,7 +86,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             
                 
             <p class="__caption">
-            MIMA WATER, CLEAN WATER IS LIFE!!!!!!!!!!<br>
+            <a href="{{url('read')}}">WHAT CAUSES TYPHOID FEVER!!!!!!!!!!<br>
             <!-- STAY SAFE THIS CRITICAL TIME -->
             <!-- All over the world, clean water is a major challenge<br>for everyone. Developed, developing and underdeveloped<br>countries are all faced with this challenge.<br>With this product, MIMA 74 WATER CLEANSER <br>you are guaranteed of a clean and safe water<br>all day and year round -->
             </p>
@@ -155,7 +155,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
                     <div class="__img" style="background-image: url('images/surface.jfif');"></div>
-                    <p>Our product can be used to clean surfaces, toilets, tiles and sterilizing of clothes and napin. it is highly effective against germs, bacteria and viruses.</p>
+                    <p>Our product can be used to clean surfaces and toilets. It is highly effective against germs, bacteria and Fungai.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>
@@ -169,7 +169,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
              <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="__ourscard">
                     <div class="__img" style="background-image: url('images/coli.jfif');"></div>
-                    <p>Mima 74 water cleanser kills coliform bacteria 100% thereby preventing infections associated with water. If you know anyone suffering as a result of water related infections, we recommend this product.</p>
+                    <p>Mima 74 water cleanser kills coliform bacteria thereby preventing infections associated with water. If you know anyone suffering as a result of water related infections, we recommend this product.</p>
                     <a href= "{{url('mima')}}" class="btn __actionbtn">Read More</a>
                 </div>
             </div>

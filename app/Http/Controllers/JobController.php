@@ -33,7 +33,7 @@ class JobController extends Controller
     {
         //
         $jobs=Jobs::all();
-        return view('jobs.create')->with('jobs', $jobs);
+        return response('jobs', 200);
     }
 
     /**

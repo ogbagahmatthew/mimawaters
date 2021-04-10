@@ -42,3 +42,4 @@ class messagedistributor extends Mailable
         return $this->view('emails.notifydistributors');
     }
 }
+ 
